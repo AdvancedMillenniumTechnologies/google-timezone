@@ -3,6 +3,9 @@ amt-timezone
 
 A node module for Google Time Zone API.
 
+## Install
+    npm install git://github.com/justin-johnn/amt-timezone.git
+
 ## Usage
 
 ```js
