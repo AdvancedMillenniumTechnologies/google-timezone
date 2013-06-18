@@ -19,7 +19,6 @@ var amtTimeZone = function () {
          * @param {Function} cb, required
          * @api private
          */
-
          request = function (options, cb) {
             https
                 .get(options, function (res) {
@@ -43,7 +42,7 @@ var amtTimeZone = function () {
         getTimeZone = function (lat, lng, cb) {
 
             if (!lat || !lng) {
-                return cb(new Error("Time zoner requires a location cordinates."));
+                return cb(new Error("Timezone requires a location cordinates."));
             }
 
             var timestamp = Math.round((new Date()).getTime() / 1000),
@@ -51,7 +50,7 @@ var amtTimeZone = function () {
                 params = {
                     hostname: 'maps.googleapis.com',
                     port: 443,
-                   path: '/maps/api/timezone/json?' + querystring.stringify(options)
+                    path: '/maps/api/timezone/json?' + querystring.stringify(options)
                 };
 
             return request(params, cb);
