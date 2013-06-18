@@ -1,0 +1,16 @@
+{
+  "name": "amt-timezone",
+  "description": "Google Time Zone API.",
+  "maintainers": "Justin John Mathews <justin@amt.in>",
+  "homepage": "https://github.com/justin-john/amt-timezone",
+  "author": {
+    "name": "Justin John Mathews"
+  },
+  "version": "0.0.1",
+  "main": "./index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": "*"
+  }
+}
