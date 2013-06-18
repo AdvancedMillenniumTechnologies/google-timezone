@@ -63,8 +63,7 @@ var amtTimeZone = function () {
              params = {
                 hostname: 'maps.googleapis.com',
                 port: 443,
-                path: '/maps/api/timezone/json?' + querystring.stringify(options),
-                method: 'GET'
+                path: '/maps/api/timezone/json?' + querystring.stringify(options)
             };
 
             return request(params, cb);
