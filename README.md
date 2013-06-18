@@ -23,6 +23,6 @@ More details can be found on docs of [Google TimeZone API](https://developers.go
 
 ## License
 
-(c) 2013 Justin John Mathews[amt.in], MIT license.
+(c) 2013 Justin John Mathews www.amt.in, MIT license.
 
 
