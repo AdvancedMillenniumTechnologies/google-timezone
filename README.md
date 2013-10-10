@@ -4,7 +4,7 @@ amt-timezone
 A node module for Google Time Zone API.
 
 ## Install
-    npm install git://github.com/justin-johnn/amt-timezone.git
+    npm install git@github.com:AdvancedMillenniumTechnologies/amt-timezone.git
 
 ## Usage
 
@@ -26,6 +26,7 @@ More details can be found on docs of [Google TimeZone API](https://developers.go
 
 ## License
 
-(c) 2013 Justin John Mathews www.amt.in, MIT license.
+Copyright (c) 2013 Justin John Mathews www.amt.in, MIT license.
+
 
 
