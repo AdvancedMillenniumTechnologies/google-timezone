@@ -11,8 +11,8 @@ A node module for accessing Google Time Zone API.
 ```js
     var timezone = require('google-timezone');
     timezone.googleTimeZone(
-                    latitude, // Latitude coordinate
-                    longitude, // Longitude coordinate
+                    12.5802324, // Latitude coordinate
+                    77.3412397, // Longitude coordinate
                     function (err, data) {
                         if (err) {
                             console.log(err);
