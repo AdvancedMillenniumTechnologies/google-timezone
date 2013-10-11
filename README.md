@@ -4,7 +4,7 @@ google-timezone
 A node module for accessing Google Time Zone API.
 
 ## Install
-    npm install git@github.com:AdvancedMillenniumTechnologies/google-timezone.git
+     npm install git://github.com/AdvancedMillenniumTechnologies/google-timezone.git
 
 ## Usage
 
