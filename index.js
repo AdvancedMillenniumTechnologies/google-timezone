@@ -43,7 +43,7 @@ var googleTimeZone = function () {
          */
         getTimeZone = function (lat, lng, cb) {
 
-            if (!lat || !lng) {
+            if ((lat != '') || (lng != '')) {
                 return cb(new Error("Timezone requires a location cordinates."));
             }
 
