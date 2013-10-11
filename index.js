@@ -1,9 +1,11 @@
 /**
- * amtTimeZone
+ * googleTimeZone
+ * @Author Justin John Mathews
+ * Copyright www.amt.in
  */
 
 
-var amtTimeZone = function () {
+var googleTimeZone = function () {
 
     /**
      * Module Dependencies
@@ -57,7 +59,7 @@ var amtTimeZone = function () {
         };
 
     return {
-        amtTimeZone: getTimeZone
+        googleTimeZone: getTimeZone
     };
 
 }();
@@ -65,4 +67,4 @@ var amtTimeZone = function () {
 /**
  * Export
  */
-module.exports = amtTimeZone;
+module.exports = googleTimeZone;
