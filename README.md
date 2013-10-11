@@ -1,16 +1,16 @@
-amt-timezone
+google-timezone
 =============
 
-A node module for Google Time Zone API.
+A node module for accessing Google Time Zone API.
 
 ## Install
-    npm install git@github.com:AdvancedMillenniumTechnologies/amt-timezone.git
+    npm install git@github.com:AdvancedMillenniumTechnologies/google-timezone.git
 
 ## Usage
 
 ```js
-    var timezone = require('amt-timezone');
-    timezone.amtTimeZone(
+    var timezone = require('google-timezone');
+    timezone.googleTimeZone(
                     latitude, // Latitude coordinate
                     longitude, // Longitude coordinate
                     function (err, data) {
@@ -26,7 +26,15 @@ More details can be found on docs of [Google TimeZone API](https://developers.go
 
 ## License
 
-Copyright (c) 2013 Justin John Mathews www.amt.in, MIT license.
+(The MIT License)
+
+Copyright (c) 2013 Justin John Mathews <www.amt.in>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 
 
